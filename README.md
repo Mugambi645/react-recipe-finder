@@ -15,7 +15,7 @@ npm run build
 # build for production and view the bundle analyzer report
 npm run build --report
 ```
-# Build With Docker
+### Build With Docker
 
 ```bash
 docker build -t recipe-app:nginx -f Dockerfile
