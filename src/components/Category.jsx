@@ -5,32 +5,51 @@ import { NavLink } from "react-router-dom";
 
 const Category = () => {
   return (
-    <List>
-      <SLink to={"/cuisines/Italian"}>
+    <>
+    <div className="flex items-center -mx-4 space-x-2 overflow-x-auto overflow-y-hidden sm:justify-center flex-nowrap dark:bg-gray-800 dark:text-gray-100">
+	<a rel="noopener noreferrer" href="#" className="flex items-center flex-shrink-0 px-5 py-2  dark:border-gray-700 dark:text-gray-400">
+  <SLink to={"/cuisines/Italian"}>
         <FaPizzaSlice />
         <h4>Italian</h4>
       </SLink>
-      <SLink to={"/cuisines/American"}>
+  </a>
+	<a rel="noopener noreferrer" href="#" className="flex items-center flex-shrink-0 px-5 py-2  dark:border-gray-700 dark:text-gray-400">
+
+  <SLink to={"/cuisines/American"}>
         <FaHamburger />
         <h4>American</h4>
       </SLink>
-      <SLink to={"/cuisines/Thai"}>
+  </a>
+	<a rel="noopener noreferrer" href="#" className="flex items-center flex-shrink-0 px-5 py-2  dark:border-violet-400 dark:text-gray-50">
+  <SLink to={"/cuisines/Thai"}>
         <GiNoodles />
         <h4>Thai</h4>
       </SLink>
-      <SLink to={"/cuisines/Japanese"}>
+  </a>
+	<a rel="noopener noreferrer" href="#" className="flex items-center flex-shrink-0 px-5 py-2  dark:border-gray-700 dark:text-gray-400">
+  <SLink to={"/cuisines/Japanese"}>
         <GiChopsticks />
         <h4>Japanese</h4>
       </SLink>
-      <SLink to={"/cuisines/Chinese"}>
+  </a>
+  <a rel="noopener noreferrer" href="#" className="flex items-center flex-shrink-0 px-5 py-2 dark:border-gray-700 dark:text-gray-400">
+         
+  <SLink to={"/cuisines/Chinese"}>
         <GiChopsticks />
         <h4>Chinese</h4>
       </SLink>
-      <SLink to={"/cuisines/African"}>
+  </a>
+  <a rel="noopener noreferrer" href="#" className="flex items-center flex-shrink-0 px-5 py-2  dark:border-gray-700 dark:text-gray-400">
+
+  <SLink to={"/cuisines/African"}>
         <GiMeatCleaver />
         <h4>African</h4>
       </SLink>
-    </List>
+  </a>
+
+</div>
+<List></List>
+    </>
   );
 };
 
