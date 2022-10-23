@@ -38,6 +38,7 @@ const List = styled.div`
   display: flex;
   justify-content: center;
   margin: 2rem 0;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 `;
 
 const SLink = styled(NavLink)`
